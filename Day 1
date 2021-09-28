@@ -1,0 +1,14 @@
+Find time complexity T(n) for the following code snippet:
+
+CODE::
+
+a = 1;
+b = 1;
+while(b < n)
+{
+  a += 1;
+  b += a;
+  cout<<"Hi";
+}
+
+Ans. T(n) = O(√n) or O(root(n))
